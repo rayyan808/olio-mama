@@ -20,7 +20,7 @@ const CategoryBlocks = ({ categoryBlock }: any) => {
 	const categories = getCategoryData(categoryBlock);
 	return (
 		<Box sx={styles?.wrapper}>
-			<Grid sx={styles?	.grid}>
+			<Grid sx={styles?.grid}>
 				{categories.map((item: any) => (
 					<PrimaryCard
 						key={`category-block--key${item.id}`}
